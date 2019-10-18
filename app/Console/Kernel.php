@@ -15,8 +15,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        ModelMakeCommand::class,
         ControllerMakeCommand::class,
+        ModelMakeCommand::class,
     ];
 
     /**
